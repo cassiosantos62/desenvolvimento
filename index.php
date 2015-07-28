@@ -3,22 +3,68 @@ include  'head.php';
 ?>
 <html>
 <body>
-  <div class="container-fluid">
-      <div class="row header-redes">
-        <i class="fa fa-whatsapp"></i>
-        <i class="fa fa-youtube-play"></i>
-        <i class="fa fa-linkedin-square"></i>
+  <div class="container-fluid ">
+  <!-- Redes Sociais -->
+      <div class="row header-redes text-right">
+        <i class="fa fa-facebook-official"></i>
         <i class="fa fa-twitter-square"></i>
         <i class="fa fa-instagram"></i>
-        <i class="fa fa-facebook-official"></i>
+        <i class="fa fa-linkedin-square"></i>
+        <i class="fa fa-youtube-play"></i>
+        <i class="fa fa-whatsapp"></i>
+      </div><!-- END header-redes -->
+
+      <div class="row col-lx-12 header-logo">
+          <img src="img/logotipo.png" alt="">
+      </div><!-- END header-logo -->
+</div><!-- END container -->
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse ">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Bootstrap theme</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
-      <div class="logo-">
-
-      </div>
+    </nav>
 
 
-    </div>
-  </div>
+<div class="conteudo"></div>
+
+
+
+
+
+
+
+
+
+
 
 
 
