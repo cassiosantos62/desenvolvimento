@@ -1,0 +1,15 @@
+body{
+    padding: 0;
+    margin:0;
+}
+
+.row{
+    background:#BEBEBE;
+    height: 40px;
+}
+
+.fa{
+    float: right;
+    font-size: 28px!important;
+    margin: 5px;
+}
